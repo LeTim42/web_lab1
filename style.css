@@ -191,10 +191,6 @@ footer {
     .gallery-container {
         grid-template-columns: 1fr;
     }
-    
-    .photo-card img {
-        height: 150px;
-    }
 }
 
 @media (min-width: 1024px) {
