@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="photo.jpg" alt="Моя фотография" class="profile-img">
+        <div class="header-content">
+            <h1>Тимур Лебедев</h1>
+            <p>Студент, ассистент инженер</p>
+        </div>
+    </header>
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Привет! Я студент 3 курса в Нижегородском кампусе Высшей Школы Экономики на направлении "Программная инженерия". Помимо учёбы, с середины второго курса работаю в Huawei на должности ассистент инженер.</p>
+        <button class="toggle-btn" onclick="toggleInfo()">Подробнее</button>
+        <div id="extra-info" class="hidden">
+            <h3>Дополнительная информация:</h3>
+            <ul class="extra-list">
+                <li>🎮 Увлечения:
+                    <ul>
+                        <li>Олимпиадное программирование</li>
+                        <li>Изучение новых ИИ технологий</li>
+                        <li>Ютуб канал по игре Geometry Dash</li>
+                    </ul>
+                </li>
+                <li>🏆 Достижения:
+                    <ul>
+                        <li>100-бальник по информатике</li>
+                        <li>Лаурет стипендии Неймарк</li>
+                        <li>Трёхкратный полуфиналист ICPC</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Навыки</h2>
+        <div class="skills-container">
+            <article>
+                <h3>Технические навыки</h3>
+                <ul>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Языки</h3>
+                <ul>
+                    <li>Русский (родной)</li>
+                    <li>Английский (B2)</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery-container">
+            <figure class="photo-card">
+                <div class="image-container">
+                    <img src="commands.jpg" alt="ВКОШП & ICPC">
+                </div>
+                <figcaption>Все Нижегородские команды на ВКОШП и ICPC 2024 в Питере</figcaption>
+            </figure>
+            <figure class="photo-card">
+                <div class="image-container">
+                    <img src="mycommand.jpg" alt="Моя команда">
+                </div>
+                <figcaption>Моя команда на церемонии награждения на полуфинале ICPC 2024</figcaption>
+            </figure>
+            <figure class="photo-card">
+                <div class="image-container">
+                    <img src="youtube.jpg" alt="Ютуб канал">
+                </div>
+                <figcaption>Мой игровой ютуб канал</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Телеграм: <a href="https://t.me/LeTim42" target="_blank">@LeTim42</a></p>
+        <p>Вконтакте: <a href="https://vk.com/letim42" target="_blank">@letim42</a></p>
+        <p>Гитхаб: <a href="https://github.com/LeTim42" target="_blank">LeTim42</a></p>
+        <p>Codeforces: <a href="https://codeforces.com/profile/LeTim" target="_blank">LeTim</a></p>
+        <p>Ютуб канал: <a href="https://youtube.com/@letim" target="_blank">LeTim [GD]</a></p>
+    </section>
+    <footer>
+        <p>© 2025 Тимур Лебедев. Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
